@@ -1,0 +1,30 @@
+.img-parent{
+    width: 200px;
+    height: 200px;
+}
+
+.overlay{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(0,0);
+    transition: 0.5s;
+}
+
+.black{
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.img-parent:hover .black{
+    transform: scale(1,1);
+}
+
+
+.img-parent:hover span{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
